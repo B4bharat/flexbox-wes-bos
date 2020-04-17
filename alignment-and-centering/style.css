@@ -245,9 +245,23 @@ input::-moz-focus-inner {
 
 /* We start writing out flexbox here. The above is just page setup */
 /* Always remember Michael Jackson for Main Axis - Justify Content */
-.container {
+/* .container {
   display: flex;
   height: 100vh;
   align-items: center;
-  /*align-items default is stretch*/
+} */
+/*align-items default is stretch*/
+/*align-content is the opposite of align-items*/
+
+.container {
+  display: flex;
+  border: 10px solid salmon;
+  height: 100vh;
+  flex-wrap: wrap;
+
+  align-content: space-around;
+}
+
+.box {
+  width: 33.33%;
 }
