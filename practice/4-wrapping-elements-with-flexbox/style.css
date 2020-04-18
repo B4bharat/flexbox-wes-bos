@@ -246,7 +246,7 @@ input::-moz-focus-inner {
   display: flex;
   border: 10px solid goldenrod;
   height: 100vh;
-  flex-wrap: nowrap;
+  flex-wrap: wrap;
 }
 
 .box {
